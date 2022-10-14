@@ -1,5 +1,3 @@
-DROP DATABASE IF EXISTS ventas;
-CREATE DATABASE ventas;
 
 
 CREATE TABLE cliente (
