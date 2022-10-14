@@ -18,9 +18,9 @@ For any bug reports or feature requests please
 Author
 ------
 
-Database scott  -> Rafał Pocztarski - [https://github.com/rsp](https://github.com/rsp)
-Database pagila -> Robert Treat - [https://github.com/xzilla/pagila]
-Database universidad,tienda,gestion,jardineria -> josejuansanchez [https://github.com/josejuansanchez]
+Database scott  -> Rafał Pocztarski - [https://github.com/rsp](https://github.com/rsp)\n
+Database pagila -> Robert Treat - [https://github.com/xzilla/pagila]\n
+Database universidad,tienda,gestion,jardineria -> josejuansanchez [https://github.com/josejuansanchez]\n
 
 
 
