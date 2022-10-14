@@ -1,4 +1,3 @@
-
 CREATE TABLE departamento (
     id INTEGER PRIMARY KEY,
     nombre VARCHAR(50) NOT NULL
@@ -34,8 +33,6 @@ CREATE TABLE profesor (
 );
  
 CREATE TYPE tipo_asignatura as ENUM('básica', 'obligatoria', 'optativa');
-
-
 CREATE TABLE asignatura (
     id INTEGER PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL,
