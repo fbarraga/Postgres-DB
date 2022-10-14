@@ -17,7 +17,6 @@ For any bug reports or feature requests please
 
 Author
 ------
-Francesc Barragán:
 
 Database scott  -> Rafał Pocztarski - [https://github.com/rsp](https://github.com/rsp)
 Database pagila -> Robert Treat - [https://github.com/xzilla/pagila]
