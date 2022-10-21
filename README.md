@@ -25,6 +25,7 @@ Database pagila -> Robert Treat - [https://github.com/xzilla/pagila]
 
 Database universidad,tienda,gestion,jardineria -> josejuansanchez [https://github.com/josejuansanchez]
 
+Database Northwind: based on Microsoft sample databases adapted to Postgres https://github.com/Microsoft/sql-server-samples
 
 
 License
