@@ -45,6 +45,7 @@ CREATE TABLE employees (
 	salary NUMERIC (8, 2) NOT NULL,
 	manager_id INTEGER,
 	department_id INTEGER,
+	commision NUMERIC(8,2),
 	FOREIGN KEY (job_id) REFERENCES jobs (job_id) ON UPDATE CASCADE ON DELETE CASCADE,
 	FOREIGN KEY (department_id) REFERENCES departments (department_id) ON UPDATE CASCADE ON DELETE CASCADE,
 	FOREIGN KEY (manager_id) REFERENCES employees (employee_id) ON UPDATE CASCADE ON DELETE CASCADE

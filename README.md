@@ -1,6 +1,7 @@
 # Postgres-DB
  
-This is a set of classical databases for use in PostgreSQL.
+This is a set of classical databases  in PostgreSQL.
+Used for training in SQL.
 
 Data
 ----
@@ -28,4 +29,4 @@ Database universidad,tienda,gestion,jardineria -> josejuansanchez [https://githu
 
 License
 -------
-MIT License (Expat). See [LICENSE.md](LICENSE.md) for details.
+See each database folder to see the license.
