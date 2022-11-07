@@ -27,6 +27,7 @@ Database universidad,tienda,gestion,jardineria -> josejuansanchez [https://githu
 
 Database Northwind: based on Microsoft sample databases adapted to Postgres https://github.com/Microsoft/sql-server-samples
 
+Database regex: based on https://hevodata.com/learn/postgresql-regex/
 
 License
 -------
