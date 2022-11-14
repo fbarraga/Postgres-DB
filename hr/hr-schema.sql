@@ -67,9 +67,6 @@ $$
 DECLARE
   e TEXT;
 BEGIN
-
-
-
   WITH Below20(Word, Id) AS
   (
     VALUES
@@ -116,19 +113,10 @@ BEGIN
        THEN  (fnNumberToWords( n / 1000000000000000000)) || ' Quintillion ' ||
            fnNumberToWords( n % 1000000000000000000)
           ELSE ' INVALID INPUT' END INTO e;
-
-
-
   e := RTRIM(e);
-
-
-
   IF RIGHT(e,1)='-' THEN
     e := RTRIM(LEFT(e,length(e)-1));
   END IF;
-
-
-
   RETURN e;
 END;
 $$ LANGUAGE PLPGSQL;
