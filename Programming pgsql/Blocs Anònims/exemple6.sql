@@ -1,4 +1,5 @@
-/* EXEMPLE 6. CONDICIONAL IF ELSE */ 
+/* Exemple 6: Condicional IF ELSE */ 
+/* Database: Any */
 
 DO $$
 DECLARE

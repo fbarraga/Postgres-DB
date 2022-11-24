@@ -1,4 +1,5 @@
-/* EXEMPLE 5. CONDICIONAL IF SIMPLE */ 
+/* Exemple 5: Condicional IF Simple */ 
+/* Database: Any */
 
 DO $$
 DECLARE

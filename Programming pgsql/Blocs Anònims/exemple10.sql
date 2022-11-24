@@ -1,4 +1,5 @@
-/* EXEMPLE 10. FOR */
+/* Exemple 10: FOR */
+/* Database: Any*/
 
 --La variable queda declarada de manera implícita en el FOR
 --La i del bucle només és accessible dins el bucle

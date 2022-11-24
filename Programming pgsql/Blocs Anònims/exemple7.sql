@@ -1,4 +1,5 @@
-/* EXEMPLE 7. CASE */ 
+/* Exemple 7. CASE */ 
+/* Database: Any*/
 
 DO $$
 DECLARE

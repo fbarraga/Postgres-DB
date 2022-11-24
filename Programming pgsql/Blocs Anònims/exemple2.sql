@@ -1,3 +1,6 @@
+/* Exemple 2: Operacions Simples
+/* Database: Any */
+
 DO $$
 DECLARE
   num1 NUMERIC;

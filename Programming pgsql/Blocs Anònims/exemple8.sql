@@ -1,4 +1,5 @@
-/* EXEMPLE 8. LOOP */
+/* Exemple 8: LOOP */
+/* Database: Any*/
 
 DO $$
 DECLARE  

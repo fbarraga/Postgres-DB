@@ -1,6 +1,7 @@
-/* EXEMPLE 4b. Select into quan no es retorna cap fila */
-/* (PROVAR AMB EMPLEAT 101 I EMPLEAT 1) */
+/* Exemple 4b: Select into quan no es retorna cap fila */
+/*             PROVAR AMB EMPLEAT 101 I EMPLEAT 1 */
 /* Database: HR*/
+
 DO $$
 DECLARE
   vSalari EMPLOYEES.salary%TYPE;

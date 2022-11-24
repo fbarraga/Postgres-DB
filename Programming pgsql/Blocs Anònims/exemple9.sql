@@ -1,4 +1,5 @@
-/* EXEMPLE 9. WHILE */
+/* Exemple 9: WHILE */
+/* Database: Any*/
 
 DO $$
 DECLARE
