@@ -1,4 +1,5 @@
 /* Declarar variables indicant el seu tipus a partir del tipus d'un camp d'una altre taula */ 
+/* Database: HR */
 
 DO $$                
 DECLARE
