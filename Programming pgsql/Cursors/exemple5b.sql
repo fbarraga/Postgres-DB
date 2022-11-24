@@ -1,4 +1,6 @@
-/*** Fes un cursor per mostrar els 3 empleats que guanyen menys *****/
+/* Exemple 5b:  Fes un cursor per mostrar els 3 empleats que guanyen menys */
+/* Database: HR */
+
 do $$
 DECLARE
   curEmpleats CURSOR FOR

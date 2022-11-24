@@ -10,7 +10,7 @@ DECLARE
    total INTEGER; 
 BEGIN 
    names :=ARRAY['Kavita', 'Pritam', 'Ayan', 'Rishav', 'Aziz'];  
-   marks:= ARRAY[98, 97, 78, 87, 92]; 
+   marks := ARRAY[98, 97, 78, 87, 92]; 
    SELECT cardinality(names) into total;
    RAISE NOTICE 'Total % Students', total; 
    FOR i in 1..total LOOP 

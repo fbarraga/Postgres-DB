@@ -1,4 +1,4 @@
-/***EXEMPLE 3. AMB FOR més simplificat encara***/
+/*Exemple 3: Amb FOR més simplificat*/
 /*Database: HR*/
 
 DO $$

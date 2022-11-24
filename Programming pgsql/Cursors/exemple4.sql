@@ -1,5 +1,5 @@
-/***EXEMPLE 4. CURSOR AMB PARAMETRES***/
-/*Database: HR*/
+/* Exemple 4: Cursor amb paràmetres */
+/* Database: HR */
 
 do $$
 DECLARE

@@ -1,4 +1,5 @@
-/* EXEMPLE 2. AMB FOR. En aquest cas OBRIR/FETCH i TANCAR cursor es fa automatic***/
+/* Exemple 2: Amb FOR. */
+            /*En aquest cas OBRIR/FETCH i TANCAR cursor es fa automatic*/
 /* Database: HR */
 
 DO $$

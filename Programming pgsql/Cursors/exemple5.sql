@@ -1,4 +1,6 @@
-/***EXEMPLE 5. ACTUALITZACIONS EN RECÓRRER REGISTRES***/
+/* Exemple 5. Actualitzacions en recòrrer registres */
+/* Database: HR */
+
 DO $$
 DECLARE
  cur_employees CURSOR FOR 

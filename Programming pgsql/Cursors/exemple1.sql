@@ -1,4 +1,4 @@
-/* EXEMPLE 1. AMB LOOP***/
+/* Exemple 1: Amb LOOP  */
 /*Database: HR*/
 
 DO $$
