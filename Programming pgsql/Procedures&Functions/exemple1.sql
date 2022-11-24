@@ -1,6 +1,7 @@
 /*** FUNCIONS QUE NO RETORNEN CAP VALOR, EL QUE EN ALTRES LLENGUATGES DE PROGRAMACIÓ ANOMENEM PROCEDIMENTS O ACCIONS ***/
 
-/*Exemple 1. Sense parametres*/
+/* Exemple 1. Sense parametres*/
+/* Database: Any */
 
 CREATE OR REPLACE FUNCTION Hello() RETURNS void
 LANGUAGE plpgsql AS $$
