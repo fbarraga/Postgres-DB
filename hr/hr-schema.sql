@@ -1,3 +1,4 @@
+
 CREATE TABLE regions (
 	region_id SERIAL PRIMARY KEY,
 	region_name CHARACTER VARYING (25)
@@ -9,6 +10,7 @@ CREATE TABLE countries (
 	region_id INTEGER NOT NULL,
 	FOREIGN KEY (region_id) REFERENCES regions (region_id) ON UPDATE CASCADE ON DELETE CASCADE
 );
+
 
 CREATE TABLE locations (
 	location_id SERIAL PRIMARY KEY,
