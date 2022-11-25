@@ -1,8 +1,8 @@
 /*** EXEMPLE FUNCIONS que retornen un valor ****/
 
 
-1. [Exemple 1: Funcio sense paràmetres](./fun01.sql)
-2. [Exemple 2: Valor maxim](./fun02.sql)
+1. [Exemple 1: Funció sense paràmetres](./fun01.sql)
+2. [Exemple 2: Valor màxim](./fun02.sql)
 
 /*** FUNCIONS QUE NO RETORNEN CAP VALOR, EL QUE EN ALTRES LLENGUATGES DE PROGRAMACIÓ ANOMENEM PROCEDIMENTS O ACCIONS ***/
 
