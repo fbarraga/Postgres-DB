@@ -1,4 +1,8 @@
-** Exemples de triggers**
+# Curs: Introducció a Postgres
+
+## Programació amb PgSQL
+
+### Triggers
 
 1. [Exemple 1: Controlar quan es poden afegir dades*/](./trig01.sql)
 2. [Exemple 2: Taula d'auditoria per controlar operacions](./trig02.sql)

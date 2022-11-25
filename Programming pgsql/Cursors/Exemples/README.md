@@ -1,3 +1,9 @@
+# Curs: Introducció a Postgres
+
+## Programació amb PgSQL
+
+### Cursors
+
 1. [Exemple 1: Amb LOOP](./cursor1.sql)
 2. [Exemple 2: Amb FOR. En aquest cas OBRIR/FETCH i TANCAR cursor es fa automatic](./cursor2.sql)
 3. [Exemple 3: Amb FOR més simplificat](./cursor3.sql)

@@ -1,3 +1,9 @@
+# Curs: Introducció a Postgres
+
+## Programació amb PgSQL
+
+### Funcions i procediments
+
 /*** EXEMPLE FUNCIONS que retornen un valor ****/
 
 
