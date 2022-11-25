@@ -9,7 +9,7 @@ BEGIN
    RAISE NOTICE 'Hello World!';
 END; $$;
 
-/** Exemples utilitzacio **/
+/** Exemples utilització **/
 do $$
 DECLARE
   X char;
