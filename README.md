@@ -1,15 +1,16 @@
 
-# Scope
+# Postgres-DB
+ 
+## Scope
 
 Cicles Formatius de Grau Superior Disseny Aplicacions Multimèdia (DAM)
 
+## Content
 
-# Postgres-DB
- 
 This is a set of database schemas, pgsql samples, activities used for training in PostgresSQL
 
 
-Issues
+##Issues
 ------
 For any bug reports or feature requests please
 [post an issue on GitHub]
