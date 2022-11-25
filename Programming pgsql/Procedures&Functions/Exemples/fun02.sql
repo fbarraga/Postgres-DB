@@ -1,4 +1,4 @@
-/* Exemple 2. Valor maxim */
+/* Exemple 2: Valor màxim */
 /* Database: pagila */
 
 CREATE OR REPLACE FUNCTION MAXIM(num1 NUMERIC, num2 NUMERIC) RETURNS NUMERIC 

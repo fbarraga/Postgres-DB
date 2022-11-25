@@ -1,7 +1,7 @@
 /*** EXEMPLE FUNCIONS que retornen un valor ****/
 
 
-/*Exemple 1. Funcio sense paràmetres */
+/* Exemple 1: Funció sense paràmetres */
 
 CREATE OR REPLACE FUNCTION getDIA() RETURNS VARCHAR
 LANGUAGE plpgsql AS $$
