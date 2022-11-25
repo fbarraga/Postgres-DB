@@ -3,7 +3,7 @@
  
 ## Scope
 
-Cicles Formatius de Grau Superior Disseny Aplicacions Multimèdia (DAM)
+Cicles Formatius de Grau Superior Disseny Aplicacions Multimèdia (DAM) M02-Bases de Dades
 
 ## Content
 
