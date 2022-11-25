@@ -1,4 +1,4 @@
-/*Exemple 2. Amb parametres. Al no indicar res per defecte es IN (d'entrada)*/
+/* Exemple 2. Amb parametres. Al no indicar res per defecte es IN (d'entrada)*/
 /* Database: Any */
 
 CREATE OR REPLACE FUNCTION CONCATENAR(cad1 VARCHAR, cad2 VARCHAR) RETURNS void

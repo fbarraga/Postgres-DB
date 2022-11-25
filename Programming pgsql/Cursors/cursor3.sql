@@ -1,5 +1,5 @@
-/*Exemple 3: Amb FOR més simplificat*/
-/*Database: HR*/
+/* Exemple 3: Amb FOR més simplificat*/
+/* Database: HR*/
 
 DO $$
 DECLARE
