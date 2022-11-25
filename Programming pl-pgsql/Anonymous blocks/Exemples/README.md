@@ -1,5 +1,5 @@
 # Curs: Introducció a Postgres
 
-## Programació amb PgSQL
+## Programació amb PL/PgSQL
 
 ### Annymous blocks
