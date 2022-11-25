@@ -1,11 +1,12 @@
 
-# Scope
-
-Cicles Formatius de Grau Superior Disseny Aplicacions Multimèdia (DAM)
-
-
 # Postgres-DB
  
+## Scope
+
+Cicles Formatius de Grau Superior Disseny Aplicacions Multimèdia (DAM) M02-Bases de Dades
+
+## Content
+
 This is a set of database schemas, pgsql samples, activities used for training in PostgresSQL
 
 
