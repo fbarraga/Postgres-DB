@@ -6,7 +6,7 @@ Cicles Formatius de Grau Superior Disseny Aplicacions Multimèdia (DAM)
 
 # Postgres-DB
  
-This is a set of database schemas, pgsql samples, activities used for training in SQL
+This is a set of database schemas, pgsql samples, activities used for training in PostgresSQL
 
 
 Issues
