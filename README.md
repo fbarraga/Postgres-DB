@@ -1,15 +1,13 @@
+
+# Scope
+
+Cicles Formatius de Grau Superior Disseny Aplicacions Multimèdia (DAM)
+
+
 # Postgres-DB
  
-This is a set of classical databases  in PostgreSQL.
-Used for training in SQL.
+This is a set of database schemas, pgsql samples, activities used for training in SQL
 
-Data
-----
-
-
-Conversion
-----------
-All sql examples are converted to the simplest PostgreSQL data types 
 
 Issues
 ------
@@ -19,15 +17,16 @@ For any bug reports or feature requests please
 Author
 ------
 
-Database scott  -> Rafał Pocztarski - [https://github.com/rsp](https://github.com/rsp)
+Databases:
 
-Database pagila -> Robert Treat - [https://github.com/xzilla/pagila]
+1. Database scott  -> Rafał Pocztarski - [https://github.com/rsp](https://github.com/rsp)
+2. Database pagila -> Robert Treat - [https://github.com/xzilla/pagila]
+3. Database universidad,tienda,gestion,jardineria -> josejuansanchez [https://github.com/josejuansanchez]
+4. Database Northwind: based on Microsoft sample databases adapted to Postgres https://github.com/Microsoft/sql-server-samples
+5. Database regex: based on https://hevodata.com/learn/postgresql-regex/
 
-Database universidad,tienda,gestion,jardineria -> josejuansanchez [https://github.com/josejuansanchez]
-
-Database Northwind: based on Microsoft sample databases adapted to Postgres https://github.com/Microsoft/sql-server-samples
-
-Database regex: based on https://hevodata.com/learn/postgresql-regex/
+PGSQL
+Pgsql samples extracted from Postgres Administration Site.
 
 License
 -------
