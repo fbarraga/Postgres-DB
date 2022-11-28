@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 # Procediments.
+=======
+# Apartat 1. Procediments.
+Database: HR
+
+>>>>>>> 9f97e14806b801e883392d8a54f22db2f202ac90
 ## Exercici 1.
 Fes un procediment emmagatzemat que rebi com a paràmetres les dades d’un departament i el doni d’alta.  
 
