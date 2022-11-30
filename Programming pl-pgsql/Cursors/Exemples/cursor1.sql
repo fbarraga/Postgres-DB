@@ -1,5 +1,5 @@
 /* Exemple 1: Amb LOOP  */
-/*Database: HR*/
+/* Database: HR*/
 
 DO $$
 DECLARE
