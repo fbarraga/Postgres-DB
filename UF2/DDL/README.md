@@ -5,7 +5,6 @@
 # BD: Pagila 
 
 1. Crear una taula FILM_AUX que tingui com a columnes (film_id,title,length i category_id) a partir de fer un SELECT sobre les taules que convingui.(FILM,FILM_CATEGORY)
-
 <details>
   <summary>Click per veure la solució!</summary>
   
@@ -18,14 +17,8 @@
         INNER JOIN film_category fc on fi.film_id=fc.film_id
         INNER JOIN category ca on ca.category_id=fc.category_id
     )
-
-
 </details>
 
-
-
-
->! spoiler tst
 
 1. Sobre la taula FILM_AUX actualitza la length de les pelicules, posar un valor de 90 a totes les que siguin de tipus 'Action'.
 
