@@ -27,4 +27,31 @@
 10. Borra les taules FILM_AUX, CAT_AUX, RENT_AUX.
 
 
+# A collapsible section within markdown
+
+### Question 
+
+What symbol is ...?  
+<br></br>
+
+<details>
+    <summary>Click once on <font color="red"><b>this text</b></font> to hide/unhide the answer!</summary>
+  
+  ### Answer
+  The answer is the arrow thingy...
+</details>
+
+# Another example of collapsible section with markdown
+
+<details>
+  <summary>Click to expand!</summary>
+  
+  ## Heading
+  1. A numbered
+  2. list
+     * With some
+     * Sub bullets
+</details>
+
+
 
