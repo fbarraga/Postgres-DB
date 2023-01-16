@@ -1,11 +1,11 @@
-# Preparació d'examens
-# Versió 1.0 09.01.2023
-# Francesc Barragán
+
 # Exemples de sentències SQL DML DDL
-# BD: Pagila 
+## Versió 1.0 Data:09.01.2023
+## BD: Pagila 
 
 1. Crear una taula FILM_AUX que tingui com a columnes (film_id,title,length i category_id) a partir de fer un SELECT sobre les taules que convingui.(FILM,FILM_CATEGORY)
 
+<center>
 <details>
     <summary>Solució</summary>
 
@@ -20,10 +20,12 @@
     );
 ```
 </details>
-
+</br>
+</center>
 
 2. Sobre la taula FILM_AUX actualitza la length de les pelicules, posar un valor de 90 a totes les que siguin de tipus 'Action'.
 
+<center>
 <details>
     <summary>Solució</summary>  
 
@@ -36,8 +38,8 @@
    
 ```
 </details>
-
-
+</br>
+</center>
 
 2. Modifica la taula FILM_AUX i afegeix un camp enter que es digui num_copies
 
