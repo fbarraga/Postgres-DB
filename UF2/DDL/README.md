@@ -2,10 +2,11 @@
 # Versió 1.0 09.01.2023
 # Francesc Barragán
 # Exemples de sentencies
+# BD: Pagila 
 
-1. Crear una taula FILM_AUX que tingui com a columnes (film_id,title,length i category_id) a partir de fer un SELECT sobre les taules que convingui.
+1. Crear una taula FILM_AUX que tingui com a columnes (film_id,title,length i category_id) a partir de fer un SELECT sobre les taules que convingui.(FILM,FILM_CATEGORY)
 
-2. Actualitza la length de les pelicules, posar un valor de 90 a totes les que siguin de tipus 'Action'.
+2. Sobre la taula FILM_AUX actualitza la length de les pelicules, posar un valor de 90 a totes les que siguin de tipus 'Action'.
 
 3. Modifica la taula FILM_AUX i afegeix un camp enter que es digui num_copies
 
