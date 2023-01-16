@@ -11,12 +11,13 @@
   
   ## SQL
    
-  CREATE TABLE FILM_AUX AS (
-    SELECT film_id,title,length,category_id
-    FROM FILM fi
-    INNER JOIN film_category fc on fi.film_id=fc.film_id
-    INNER JOIN category ca on ca.category_id=fc.category_id
-  )
+  CREATE TABLE FILM_AUX AS 
+    (
+        SELECT film_id,title,length,category_id
+        FROM FILM fi
+        INNER JOIN film_category fc on fi.film_id=fc.film_id
+        INNER JOIN category ca on ca.category_id=fc.category_id
+    )
 
 
 </details>
