@@ -1,7 +1,7 @@
 # Preparació d'examens
 # Versió 1.0 09.01.2023
 # Francesc Barragán
-# Exemples de sentències
+# Exemples de sentències SQL DML DDL
 # BD: Pagila 
 
 1. Crear una taula FILM_AUX que tingui com a columnes (film_id,title,length i category_id) a partir de fer un SELECT sobre les taules que convingui.(FILM,FILM_CATEGORY)
