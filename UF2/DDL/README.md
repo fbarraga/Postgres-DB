@@ -5,21 +5,39 @@
 # BD: Pagila 
 
 1. Crear una taula FILM_AUX que tingui com a columnes (film_id,title,length i category_id) a partir de fer un SELECT sobre les taules que convingui.(FILM,FILM_CATEGORY)
+
 <details>
-  <summary>Click per veure la solució!</summary>
-  ```sql
+    <summary>Solució</summary>
+
+    
+```sql
     CREATE TABLE FILM_AUX AS 
     (
         SELECT film_id,title,length,category_id
         FROM FILM fi
-        INNER JOIN film_category fc on fi.film_id=fc.film_id
-        INNER JOIN category ca on ca.category_id=fc.category_id
-    )
+        INNER JOIN film_category fc ON fi.film_id=fc.film_id
+        INNER JOIN category ca ON ca.category_id=fc.category_id
+    );
 ```
 </details>
 
 
-1. Sobre la taula FILM_AUX actualitza la length de les pelicules, posar un valor de 90 a totes les que siguin de tipus 'Action'.
+2. Sobre la taula FILM_AUX actualitza la length de les pelicules, posar un valor de 90 a totes les que siguin de tipus 'Action'.
+
+<details>
+    <summary>Solució</summary>  
+
+```sql
+    UPDATE FILM_AUX fa
+    SET LENGTH = 90
+    FROM CATEGORY ca
+    WHERE ca.category_id=fa.category_id
+    AND ca.name='Action';
+   
+```
+</details>
+
+
 
 2. Modifica la taula FILM_AUX i afegeix un camp enter que es digui num_copies
 
