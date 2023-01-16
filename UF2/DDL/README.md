@@ -1,7 +1,7 @@
 # Preparació d'examens
 # Versió 1.0 09.01.2023
 # Francesc Barragán
-# Exemples de sentencies
+# Exemples de sentències
 # BD: Pagila 
 
 1. Crear una taula FILM_AUX que tingui com a columnes (film_id,title,length i category_id) a partir de fer un SELECT sobre les taules que convingui.(FILM,FILM_CATEGORY)
@@ -14,7 +14,7 @@
 
 5. Crea un taula CAT_AUX que tingui les columnes (category_id integer,name varchar(255),film_count_1 integer,film_length integer,film_length_max integer)
 
-6. Inserta totes les dades de la taula Category en aquesta taula CAT_AUX amb una única sentència.
+6. Inserta  les columnes (category_id i name) de la taula Category en aquesta taula CAT_AUX amb una única sentència.
 
 7. Modifica la columna film_length amb la suma de la length de totes les pel·lícules que son de la mateixa categoria.
 
