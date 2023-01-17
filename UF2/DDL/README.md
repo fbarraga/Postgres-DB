@@ -49,7 +49,7 @@
 
 ```sql
     ALTER TABLE FILM_AUX
-    ADD COLUMN NUMCOPIES INTEGER;
+    ADD COLUMN num_copies INTEGER;
 ```
 </details>
 </br>
@@ -64,9 +64,9 @@
 
 ```sql
     UPDATE FILM_AUX fa
-    SET numcopies = taulaaux.numcopies
+    SET num_copies = taulaaux.ncopies
     FROM  (
-        SELECT film_id,COUNT(inventory_id) taulaaux
+        SELECT film_id,COUNT(inventory_id) ncopies
         FROM film fi
         INNER JOIN inventory inv ON fi.film_id=inv.film_id
         GROUP BY film_id) taulaaux
