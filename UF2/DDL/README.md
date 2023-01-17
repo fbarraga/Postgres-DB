@@ -114,9 +114,9 @@
 
 ```sql
     UPDATE CAT_AUX fa
-    SET LENGTH = taulaaux.length
+    SET LENGTH = taulaaux.duracio
     FROM (
-        SELECT fc.category_id,sum(fi.length)
+        SELECT fc.category_id,sum(fi.length) duracio
         FROM film fi
         INNER JOIN film_category fc ON fc.film_id=fi.category_id)
         GROUP by ca.category_id
@@ -135,9 +135,9 @@
 
 ```sql
     UPDATE CAT_AUX fa
-    SET LENGTH = taulaaux.length
+    SET LENGTH = taulaaux.duracio
     FROM (
-        SELECT fc.category_id,MAX(fi.length)
+        SELECT fc.category_id,MAX(fi.length) duracio
         FROM film fi
         INNER JOIN film_category fc ON fc.film_id=fi.category_id)
         GROUP by ca.category_id
@@ -155,7 +155,7 @@
     <summary>Solució</summary>  
 
 ```sql
-    CREATE TABLE RENT_AUX AS
+    CREATE TABLE RENT_AUX (film_id INTEGER, title VARCHAR(255), rental_count INTEGER) AS
     SELECT fi.film_id,fi.title,COUNT(re.rental_id)
     FROM film fi
     INNER JOIN inventory inv ON fi.film_id=inv.film_id
