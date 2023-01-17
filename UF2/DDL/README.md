@@ -24,7 +24,7 @@
 </br>
 </center>
 
-2. Sobre la taula FILM_AUX actualitza la length de les pelicules, posar un valor de 90 a totes les que siguin de tipus 'Action'.
+2. Sobre la taula FILM_AUX actualitza la length de les pel·lícules, posar un valor de 90 a totes les que siguin de tipus 'Action'.
 
 <center>
 <details>
@@ -57,7 +57,7 @@
 </center>
 
 
-4. Actualitza la taula FILM_AUX amb el número de copies que té cada pel·lícula.
+4. Actualitza la taula FILM_AUX amb el número de còpies que té cada pel·lícula.
 
 <center>
 <details>
@@ -128,7 +128,7 @@
 </br>
 </center>
 
-8. Modifica la columna film_length amb la duració de la pelicula més llarga de la seva categoria.
+8. Modifica la columna film_length amb la duració de la pel·lícula més llarga de la seva categoria.
 
 <center>
 <details>
@@ -149,7 +149,7 @@
 </br>
 </center>
 
-9. Crea una taula RENT_AUX a partir d'un SELECT de la taula rental que ens doni les 5 pelicules que més s'han llogat. Els camps d'aquesta taula han de ser film_id, title, rental_count
+9. Crea una taula RENT_AUX a partir d'un SELECT de la taula rental que ens doni les 5 pel·lícules que més s'han llogat. Els camps d'aquesta taula han de ser film_id, title, rental_count
 
 <center>
 <details>
@@ -170,7 +170,7 @@
 </br>
 </center>
 
-10.  Borra les taules FILM_AUX, CAT_AUX, RENT_AUX.
+10.  Elimina les taules FILM_AUX, CAT_AUX, RENT_AUX.
 
 <center>
 <details>
