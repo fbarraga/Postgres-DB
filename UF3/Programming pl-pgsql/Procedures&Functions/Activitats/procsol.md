@@ -8,7 +8,22 @@ Fes un procediment emmagatzemat que rebi com a paràmetres les dades d’un depa
     <summary>Solució</summary>  
 
 ```sql
-CREATE OR REPLACE FUNCTION NewDepartment(dept_id DEPARMENTS.DEPARMENT_ID%TYPE)
+CREATE OR REPLACE FUNCTION NewDepartment(dept_id DEPARTMENTS.DEPARTMENT_ID%TYPE,
+                                         dept_name DEPARTMENTS.DEPARTMENT_NAME%TYPE,
+                                         loc_id DEPARTMENTS.LOCATION_ID%TYPE) RETURNS VOID
+
+LANGUAGE plpgsql AS $$
+BEGIN
+   INSERT INTO DEPARTMENTS (department_id,department_name,location_id)
+   VALUES(dept_id,dept_name,loc_id);
+END;
+$$;
+
+SELECT NewDepartment(9999,'FRANCESC',1700)
+```
+</details>
+</br>
+</center>
 
 
 
@@ -123,7 +138,7 @@ Programar una funció que rebi com a paràmetre una nota (suposarem que l’entr
 CREATE OR REPLACE FUNCTION NotaFinal(nota NUMERIC) RETURNS VARCHAR 
 LANGUAGE plpgsql AS $$
 DECLARE
-resultat VARCHAR(15);
+   resultat VARCHAR(15);
 BEGIN
    CASE 
    WHEN nota <5 THEN
@@ -153,7 +168,7 @@ END;$$;
 </br>
 </center>
 
-## Exercici 6
+## Exercici 6 (BD: HR)
 Crear una funció que rebi com a paràmetre un salari i que calculi el valor de la comissió en funció d’aquest salari.
 - Si el salari és menor o igual a 3000, la comissió que s'aplicarà serà d'un 15%.
 - Si la quantitat es troba entre 3001 i 7000, s'aplicarà un 10%.
@@ -163,10 +178,37 @@ Crear una funció que rebi com a paràmetre un salari i que calculi el valor de 
 La funció només retornarà un valor en concret, però no modificarà res de la base de dades. Aquesta funció s'anomenarà f_calcularComissio.  Utilitza un CASE per calcular el valor.
 Fes una select de la taula d’empleats on utilitzis aquesta funció i mostris quina comissió tindria cada empleat en funció del seu salari. Mostra el codi d’empleat, nom, salari i la comissió prevista.
 
+<center>
+<details>
+    <summary>Solució</summary>  
 
+```sql
+CREATE OR REPLACE FUNCTION f_calcularcomissio(salary employees.salary%type) RETURNS NUMERIC 
+LANGUAGE plpgsql AS $$
+DECLARE
+   comissio NUMERIC(2);
+BEGIN
+   CASE 
+      WHEN salary <=3000 THEN
+         comissio:=15;
+      WHEN salary >=3001 AND salary <= 7000 THEN
+         comissio:=10;
+      WHEN salary >=7001 AND salary <= 10000 THEN
+         comissio:=5;
+      WHEN salary >=10001 AND salary <= 20000 THEN
+         comissio:=1;
+      ELSE
+         comissio:=NULL;
+   END CASE;
+ RETURN comissio;
+END;
+$$;
 
-
-
+SELECT employee_id,salary,f_calcularcomissio(salary) FROM employees;
+```
+</details>
+</br>
+</center>
 
 
 
