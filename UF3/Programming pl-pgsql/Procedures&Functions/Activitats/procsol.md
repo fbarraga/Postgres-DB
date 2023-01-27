@@ -1,4 +1,4 @@
-# Activitat de procediments i funcions (SOLUCIO)
+# Activitat de procediments i funcions (SOLUCIÓ)
 ## Apartat 1: Procediments.
 
 ### Exercici 1. (BD:HR)
