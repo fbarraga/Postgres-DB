@@ -1,7 +1,6 @@
 
 # Exemples de sentències SQL DML DDL
 ## Versió 1.0 
-### Darrera modificació:09.01.2023
 ### BD: Pagila 
 
 1. Crear una taula FILM_AUX que tingui com a columnes (film_id,title,length i category_id) a partir de fer un SELECT sobre les taules que convingui.(FILM,FILM_CATEGORY)
@@ -24,7 +23,7 @@
 </br>
 </center>
 
-2. Sobre la taula FILM_AUX actualitza la length de les pelicules, posar un valor de 90 a totes les que siguin de tipus 'Action'.
+2. Sobre la taula FILM_AUX actualitza la length de les pel·lícules, posar un valor de 90 a totes les que siguin de tipus 'Action'.
 
 <center>
 <details>
@@ -49,19 +48,15 @@
     <summary>Solució</summary>  
 
 ```sql
-    UPDATE FILM_AUX fa
-    SET LENGTH = 90
-    FROM CATEGORY ca
-    WHERE ca.category_id=fa.category_id
-    AND ca.name='Action';
-   
+    ALTER TABLE FILM_AUX
+    ADD COLUMN num_copies INTEGER;
 ```
 </details>
 </br>
 </center>
 
 
-4. Actualitza la taula FILM_AUX amb el número de copies que té cada pel·lícula.
+4. Actualitza la taula FILM_AUX amb el número de còpies que té cada pel·lícula.
 
 <center>
 <details>
@@ -69,10 +64,13 @@
 
 ```sql
     UPDATE FILM_AUX fa
-    SET LENGTH = 90
-    FROM CATEGORY ca
-    WHERE ca.category_id=fa.category_id
-    AND ca.name='Action';
+    SET num_copies = taulaaux.ncopies
+    FROM  (
+        SELECT film_id,COUNT(inventory_id) ncopies
+        FROM film fi
+        INNER JOIN inventory inv ON fi.film_id=inv.film_id
+        GROUP BY film_id) taulaaux
+    WHERE fa.film_id=taula_aux.film_id;
    
 ```
 </details>
@@ -86,12 +84,7 @@
     <summary>Solució</summary>  
 
 ```sql
-    UPDATE FILM_AUX fa
-    SET LENGTH = 90
-    FROM CATEGORY ca
-    WHERE ca.category_id=fa.category_id
-    AND ca.name='Action';
-   
+    CREATE TABLE CAT_AUX (category_id INTEGER, name VARCHAR(255), film_count_1 INTEGER, film_length INTEGER, film_length_max INTEGER);
 ```
 </details>
 </br>
@@ -104,11 +97,9 @@
     <summary>Solució</summary>  
 
 ```sql
-    UPDATE FILM_AUX fa
-    SET LENGTH = 90
-    FROM CATEGORY ca
-    WHERE ca.category_id=fa.category_id
-    AND ca.name='Action';
+    INSERT INTO CAT_AUX (category_id,name)
+    SELECT ca.category_id,ca.name
+    FROM category;
    
 ```
 </details>
@@ -122,54 +113,63 @@
     <summary>Solució</summary>  
 
 ```sql
-    UPDATE FILM_AUX fa
-    SET LENGTH = 90
-    FROM CATEGORY ca
-    WHERE ca.category_id=fa.category_id
-    AND ca.name='Action';
-   
+    UPDATE CAT_AUX fa
+    SET LENGTH = taulaaux.duracio
+    FROM (
+        SELECT fc.category_id,sum(fi.length) duracio
+        FROM film fi
+        INNER JOIN film_category fc ON fc.film_id=fi.category_id)
+        GROUP by ca.category_id
+        ) taulaaux
+    WHERE fa.category_id=taula_aux.category_id;
 ```
 </details>
 </br>
 </center>
 
-8. Modifica la columna film_length amb la duració de la pelicula més llarga de la seva categoria.
+8. Modifica la columna film_length amb la duració de la pel·lícula més llarga de la seva categoria.
 
 <center>
 <details>
     <summary>Solució</summary>  
 
 ```sql
-    UPDATE FILM_AUX fa
-    SET LENGTH = 90
-    FROM CATEGORY ca
-    WHERE ca.category_id=fa.category_id
-    AND ca.name='Action';
-   
+    UPDATE CAT_AUX fa
+    SET LENGTH = taulaaux.duracio
+    FROM (
+        SELECT fc.category_id,MAX(fi.length) duracio
+        FROM film fi
+        INNER JOIN film_category fc ON fc.film_id=fi.category_id)
+        GROUP by ca.category_id
+        ) taulaaux
+    WHERE fa.category_id=taula_aux.category_id;
 ```
 </details>
 </br>
 </center>
 
-9. Crea una taula RENT_AUX a partir d'un SELECT de la taula rental que ens doni les 5 pelicules que més s'han llogat. Els camps d'aquesta taula han de ser film_id, title, rental_count
+9. Crea una taula RENT_AUX a partir d'un SELECT de la taula rental que ens doni les 5 pel·lícules que més s'han llogat. Els camps d'aquesta taula han de ser film_id, title, rental_count
 
 <center>
 <details>
     <summary>Solució</summary>  
 
 ```sql
-    UPDATE FILM_AUX fa
-    SET LENGTH = 90
-    FROM CATEGORY ca
-    WHERE ca.category_id=fa.category_id
-    AND ca.name='Action';
+    CREATE TABLE RENT_AUX (film_id INTEGER, title VARCHAR(255), rental_count INTEGER) AS
+    SELECT fi.film_id,fi.title,COUNT(re.rental_id)
+    FROM film fi
+    INNER JOIN inventory inv ON fi.film_id=inv.film_id
+    INNER JOIN rental re ON re.inventory_id=inv.inventory_id
+    GROUP by fi.film_id,fi.title
+    ORDER BY COUNT(re.rental_id) DESC
+    LIMIT 5;
    
 ```
 </details>
 </br>
 </center>
 
-10.  Borra les taules FILM_AUX, CAT_AUX, RENT_AUX.
+10.  Elimina les taules FILM_AUX, CAT_AUX, RENT_AUX.
 
 <center>
 <details>
