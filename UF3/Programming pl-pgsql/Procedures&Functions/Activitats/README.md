@@ -1,22 +1,22 @@
-# Apartat 1: Procediments.
+# Activitat de procediments i funcions
+## Apartat 1: Procediments.
 
-## Exercici 1.
+### Exercici 1.
 Fes un procediment emmagatzemat que rebi com a paràmetres les dades d’un departament i el doni d’alta.  
 
-## Exercici 2.
+### Exercici 2.
 Fes un procediment emmagatzemat que donat un codi de departament, l’elimini. En cas que es produeixi un error al eliminar-lo que avisi per consola amb el següent missatge:  
 Error: No es pot eliminar el departament indicat.
 
-## Exercici 3.
+### Exercici 3.
 Fes un procediment emmagatzemat que li passis un codi d’empleat i un salari, i li assigni a aquell empleat el nou salari indicat. En cas de no trobar l’empleat que avisi amb un missatge.
 
-## Exercici 4.
+### Exercici 4.
 Fes un procediment emmagatzemat que rebi com a paràmetres un número de departament, un import i incrementi el salari de tots els empleats del departament indicat, amb el salari que tenien més l’import indicat.
 
+## Apartat 2. Funcions.
 
-# Apartat 2. Funcions.
-
-## Exercici 5.
+### Exercici 5.
 Programar una funció que rebi com a paràmetre una nota (suposarem que l’entrada serà correcte entre 0 i 10) i retorni la seva nota qualitativa:
 •	Insuficient: de 0 a 4,99
 •	Suficient: de 5 a 5,99
@@ -25,7 +25,7 @@ Programar una funció que rebi com a paràmetre una nota (suposarem que l’entr
 •	Excel·lent: de 9 a 9,99
 •	Matrícula d'honor: 10
 
-## Exercici 6
+### Exercici 6
 Crear una funció que rebi com a paràmetre un salari i que calculi el valor de la comissió en funció d’aquest salari.
 - Si el salari és menor o igual a 3000, la comissió que s'aplicarà serà d'un 15%.
 - Si la quantitat es troba entre 3001 i 7000, s'aplicarà un 10%.
@@ -35,7 +35,7 @@ Crear una funció que rebi com a paràmetre un salari i que calculi el valor de 
 La funció només retornarà un valor en concret, però no modificarà res de la base de dades. Aquesta funció s'anomenarà f_calcularComissio.  Utilitza un CASE per calcular el valor.
 Fes una select de la taula d’empleats on utilitzis aquesta funció i mostris quina comissió tindria cada empleat en funció del seu salari. Mostra el codi d’empleat, nom, salari i la comissió prevista.
 
-## Exercici 7
+### Exercici 7
 La funció DBMS_RANDOM.value(MIN,MAX) genera números aleatoris entre un valor MIN i MAX (compte que els dona amb decimals). Es demana programar una funció anomenada f_Aleatori que rebi com a paràmetre un número N entre 1 i 6 i simuli el llançament d'un dau (números de l'1 al 6) 100 vegades i compti quantes vegades ha sortit el número N.
 A continuació dins un bloc anònim PL/SQL utilitza aquesta funció amb algun valor. 
 
