@@ -1,4 +1,5 @@
-# Procediments.
+# Apartat 1: Procediments.
+
 ## Exercici 1.
 Fes un procediment emmagatzemat que rebi com a paràmetres les dades d’un departament i el doni d’alta.  
 
