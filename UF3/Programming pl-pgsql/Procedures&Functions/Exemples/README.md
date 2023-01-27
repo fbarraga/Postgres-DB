@@ -4,16 +4,16 @@
 
 ### Funcions i procediments
 
-** EXEMPLE FUNCIONS que retornen un valor **
+**Exemple de FUNCIONS que retornen un valor**
 
 
-1. [Exemple 1: Funció sense paràmetres](./fun01.sql)
-2. [Exemple 2: Valor màxim](./fun02.sql)
+1. [Exemple 1:](./fun01.sql) Funció sense paràmetres
+2. [Exemple 2:](./fun02.sql) Valor màxim
 
-** FUNCIONS QUE NO RETORNEN CAP VALOR, EL QUE EN ALTRES LLENGUATGES DE PROGRAMACIÓ ANOMENEM PROCEDIMENTS O ACCIONS **
+**Exemples de FUNCIONS que NO retornen cap valor (Procediments)**
 
-1. [Exemple 1: Sense paràmetres](./proc1.sql)
-2. [Exemple 2: Amb paràmetres. Al no indicar res per defecte es IN (d'entrada)](./proc2.sql)
-3. [Exemple 3: Amb paràmetre de sortida OUT, en aquest cas no cal indicar la clàusula RETURNS ja que retornarà els valors en els paràmetres de sortida](./proc3.sql)
-4. [Exemple 4: Amb paràmetres %TYPE](./proc4.sql)
-5. [Exemple 5: Amb paràmetres tipus registre, en aquest cas no s’utilitza %rowtype sinó que s’especifica com a tipus el nom de la taula](./proc5.sql)
+1. [Exemple 1:](./proc1.sql) Sense paràmetres
+2. [Exemple 2:](./proc2.sql) Amb paràmetres. Al no indicar res per defecte es IN (d'entrada)
+3. [Exemple 3:](./proc3.sql) Amb paràmetre de sortida OUT, en aquest cas no cal indicar la clàusula RETURNS ja que retornarà els valors en els paràmetres de sortida
+4. [Exemple 4:](./proc4.sql) Amb paràmetres %TYPE
+5. [Exemple 5:](./proc5.sql) Amb paràmetres tipus registre, en aquest cas no s’utilitza %rowtype sinó que s’especifica com a tipus el nom de la taula
