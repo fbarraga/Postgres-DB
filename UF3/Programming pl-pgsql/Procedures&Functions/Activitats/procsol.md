@@ -54,7 +54,8 @@ DECLARE
    x char;
 BEGIN
   select DELETEDEPARTMENT(dept_id) into x;
-END;$$;
+END;
+$$;
 ```
 </details>
 </br>
@@ -80,7 +81,8 @@ BEGIN
 EXCEPTION
  WHEN OTHERS THEN
     raise 'No es pot actualitzar el salari indicat';
-END;$$;
+END;
+$$;
 
 SELECT ASSIGNSALARY(104, 12000);
 ```
@@ -112,7 +114,8 @@ BEGIN
 EXCEPTION
   WHEN OTHERS THEN
      RAISE 'L''empleat % no existeix', empl_id;
-END;$$;
+END;
+$$;
 
 SELECT ASSIGNSALARY(104, 10000);
 ```
@@ -158,7 +161,8 @@ BEGIN
       resultat:='Error: La nota ha d''estar entre 0 i 10';
    END CASE;
  RETURN resultat;
-END;$$;
+END;
+$$;
 
 do $$
 BEGIN
