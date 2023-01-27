@@ -210,10 +210,6 @@ SELECT employee_id,salary,f_calcularcomissio(salary) FROM employees;
 </br>
 </center>
 
-
-
-
-
 ## Exercici 7
 La funció DBMS_RANDOM.value(MIN,MAX) genera números aleatoris entre un valor MIN i MAX (compte que els dona amb decimals). Es demana programar una funció anomenada f_Aleatori que rebi com a paràmetre un número N entre 1 i 6 i simuli el llançament d'un dau (números de l'1 al 6) 100 vegades i compti quantes vegades ha sortit el número N.
 A continuació dins un bloc anònim PL/SQL utilitza aquesta funció amb algun valor. 
