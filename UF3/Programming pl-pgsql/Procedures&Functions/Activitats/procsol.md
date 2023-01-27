@@ -1,6 +1,7 @@
-# Apartat 1: Procediments.
+# Activitat de procediments i funcions (SOLUCIO)
+## Apartat 1: Procediments.
 
-## Exercici 1. (BD:HR)
+### Exercici 1. (BD:HR)
 Fes un procediment emmagatzemat que rebi com a paràmetres les dades d’un departament i el doni d’alta.  
 
 <center>
@@ -27,7 +28,7 @@ SELECT NewDepartment(9999,'FRANCESC',1700)
 
 
 
-## Exercici 2.(BD:HR)
+### Exercici 2.(BD:HR)
 Fes un procediment emmagatzemat que donat un codi de departament, l’elimini. En cas que es produeixi un error al eliminar-lo que avisi per consola amb el següent missatge:  
 Error: No es pot eliminar el departament indicat.
 
@@ -61,7 +62,7 @@ END;$$;
 
 
 
-## Exercici 3.(BD:HR)
+### Exercici 3.(BD:HR)
 Fes un procediment emmagatzemat que li passis un codi d’empleat i un salari, i li assigni a aquell empleat el nou salari indicat. En cas de no trobar l’empleat que avisi amb un missatge.
 
 <center>
@@ -87,7 +88,7 @@ SELECT ASSIGNSALARY(104, 12000);
 </br>
 </center>
 
-## Exercici 4.(BD:HR)
+### Exercici 4.(BD:HR)
 Fes un procediment emmagatzemat que rebi com a paràmetres un número de departament, un import i incrementi el salari de tots els empleats del departament indicat, amb el salari que tenien més l’import indicat.
 
 <center>
@@ -119,9 +120,9 @@ SELECT ASSIGNSALARY(104, 10000);
 </br>
 </center>
 
-# Apartat 2. Funcions.
+## Apartat 2. Funcions.
 
-## Exercici 5.
+### Exercici 5.
 Programar una funció que rebi com a paràmetre una nota (suposarem que l’entrada serà correcte entre 0 i 10) i retorni la seva nota qualitativa:
 •	Insuficient: de 0 a 4,99
 •	Suficient: de 5 a 5,99
@@ -168,7 +169,7 @@ END;$$;
 </br>
 </center>
 
-## Exercici 6 (BD: HR)
+### Exercici 6 (BD: HR)
 Crear una funció que rebi com a paràmetre un salari i que calculi el valor de la comissió en funció d’aquest salari.
 - Si el salari és menor o igual a 3000, la comissió que s'aplicarà serà d'un 15%.
 - Si la quantitat es troba entre 3001 i 7000, s'aplicarà un 10%.
@@ -210,7 +211,7 @@ SELECT employee_id,salary,f_calcularcomissio(salary) FROM employees;
 </br>
 </center>
 
-## Exercici 7
+### Exercici 7
 La funció RANDOM.value(MIN,MAX) genera números aleatoris entre un valor MIN i MAX (compte que els dona amb decimals). Es demana programar una funció anomenada f_Aleatori que rebi com a paràmetre un número N entre 1 i 6 i simuli el llançament d'un dau (números de l'1 al 6) 100 vegades i compti quantes vegades ha sortit el número N.
 A continuació dins un bloc anònim PL/SQL utilitza aquesta funció amb algun valor. 
 
