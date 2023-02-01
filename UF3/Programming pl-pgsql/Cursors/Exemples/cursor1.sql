@@ -34,7 +34,3 @@ BEGIN
   CLOSE cur_employees;
 
 END $$;
-
-
-***
-[Tornar Enrera](../README.md)

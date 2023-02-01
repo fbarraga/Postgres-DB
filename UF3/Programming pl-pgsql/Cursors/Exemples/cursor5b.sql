@@ -24,6 +24,3 @@ BEGIN
      
 END $$;
 
-***
-[Tornar Enrera](../README.md)
-
