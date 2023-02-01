@@ -7,8 +7,8 @@
 **Exemple de FUNCIONS que retornen un valor**
 
 
-   * [Exemple 1:](./fun01.sql) Funció sense paràmetres
-   * [Exemple 2:](./fun02.sql) Valor màxim
+   * [Exemple 1:](./fun01.sql) Funció que retorna el dia de la setmana d'una data
+   * [Exemple 2:](./fun02.sql) Funció que retorna el valor màxim de dos números
 
 **Exemples de FUNCIONS que NO retornen cap valor (Procediments)**
 
