@@ -15,7 +15,8 @@ La sintaxi eé:
             FPER
             CLOSE nom_cursor
 ```            
-            
+
+### Exemples
 
 1. [Exemple 1](./exemples/cursor1.sql): Amb LOOP
 2. [Exemple 2](./exemples/cursor2.sql): Amb FOR. En aquest cas OBRIR/FETCH i TANCAR cursor es fa automàtic
