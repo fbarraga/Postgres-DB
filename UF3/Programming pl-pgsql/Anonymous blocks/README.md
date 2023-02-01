@@ -18,7 +18,7 @@ end [ label ];
 ### Primers programes
 
 * [Exemple 1](./Exemples/ab1.sql):  Hello world
-*  [Exemple 2](./Exemples/ab2.sql): Operacions Simples
+* [Exemple 2](./Exemples/ab2.sql): Operacions Simples
 * [Exemple 3](./Exemples/ab3.sql): Delarar variables indicant el seu tipus a partir  del tipus d'un camp d'una altre taula 
 * [Exemple 4](./Exemples/ab4.sql): Carregar camps d'una taula en variables
 * [Exemple 4b](./Exemples/ab4b.sql): Select into quan no es retorna cap fila
