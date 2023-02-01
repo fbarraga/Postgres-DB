@@ -1,6 +1,8 @@
 /* Exemple 2: Amb FOR. */
-            /*En aquest cas OBRIR/FETCH i TANCAR cursor es fa automatic*/
 /* Database: HR */
+
+/*En aquest cas OBRIR/FETCH i TANCAR cursor es fa automatic*/
+
 
 DO $$
 DECLARE
