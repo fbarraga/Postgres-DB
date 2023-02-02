@@ -42,7 +42,7 @@ Crea PRIMER una taula amb un sol camp numèric.
 CREATE TABLE ex10 (id NUMBER(4));
 A continuació fes un bloc anònim on a partir d’un número de registres que vols introduir en la taula i et generi la següent seqüència  dins la taula(per exemple per 10 registres):
 
-![Tabla](https://github.com/fbarraga/Postgres-DB/blob/master/UF3/ets/tiobe.png?raw=true)
+![Tabla](https://github.com/fbarraga/Postgres-DB/blob/main/UF3/Programming%20pl-pgsql/Anonymous%20blocks/Activitats/image.png?raw=true)
 
 Per poder repetir l’exercici amb diferents registres esborra al principi, dins el propi bloc anònim totes les dades de la taula.
 
