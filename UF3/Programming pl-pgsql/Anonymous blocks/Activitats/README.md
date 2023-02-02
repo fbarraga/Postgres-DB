@@ -35,7 +35,7 @@ Fes un bloc anònim  amb una variable que representi el nom d’un departament n
 Fes un bloc anònim en que  a partir d’un codi de departament i un nom,  actualitzi el departament indicant el nou nom.
 
 * Exercici 9. 
-Fes un bloc anònim en que et permeti eliminar el departament amb el  codi de departament més gran. Mostra per pantalla el número de departaments eliminats. Per saber el número de registres eliminats fes servir un contador.
+Fes un bloc anònim en que et permeti eliminar el departament amb el  codi de departament més gran. 
 
 * Exercici 10. 
 Crea PRIMER una taula amb un sol camp numèric. 
