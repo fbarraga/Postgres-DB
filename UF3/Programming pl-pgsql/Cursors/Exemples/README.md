@@ -18,10 +18,10 @@ La sintaxi eé:
 
 ### Exemples
 
-1. [Exemple 1](./Exemples/cursor1.sql): Amb LOOP
-2. [Exemple 2](./Exemples/cursor2.sql): Amb FOR. En aquest cas OBRIR/FETCH i TANCAR cursor es fa automàtic
-3. [Exemple 3](./Exemples/cursor3.sql): Amb FOR més simplificat
-4. [Exemple 4](./Exemples/cursor4.sql): Cursor amb paràmetres]
-5. [Exemple 5](./Exemples/cursor5.sql): Actualitzacions en recòrrer registres]
-6. [Exemple 6](./Exemples/cursor5b.sql): Fes un cursor per mostrar els 3 empleats que guanyen menys]
+1. [Exemple 1](./code/cursor1.sql): Amb LOOP
+2. [Exemple 2](./code/cursor2.sql): Amb FOR. En aquest cas OBRIR/FETCH i TANCAR cursor es fa automàtic
+3. [Exemple 3](./code/cursor3.sql): Amb FOR més simplificat
+4. [Exemple 4](./code/cursor4.sql): Cursor amb paràmetres]
+5. [Exemple 5](./code/cursor5.sql): Actualitzacions en recòrrer registres]
+6. [Exemple 6](./code/cursor5b.sql): Fes un cursor per mostrar els 3 empleats que guanyen menys]
 
