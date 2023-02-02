@@ -14,10 +14,11 @@ Crea un bloc anònim amb dues variables numèriques i et digui quin d’aquests 
 * Exercici 3. 
 Fes un bloc anònim on donat un número de línies et mostri tants * com línies de la següent manera:
 Ex: 3 línies
+```
 *
 **
 ***
-
+```
 * Exercici 4. 
 Fes un bloc anònim amb una variable que representarà el codi codi d’empleat i es mostri per pantalla el seu nom, cognom i salari tal com es veu a continuació. Suposarem que el codi d’empleat introduït existeix. Utilitza %TYPE per assignar els tipus a les variables que necessitis.
  
