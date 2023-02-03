@@ -1,8 +1,10 @@
-# INSTAL·LACIÓ BASE DE DADES ADVENTURE WORKS (MAQUINA VIRTUALBOX)
+# INSTAL·LACIÓ BASE DE DADES ADVENTURE WORKS
 
-Obrir màquina virtual.
+## Obrir màquina virtual.
 
-Crear base de dades AdventureWorks:
+ Arranca la màquina Linux on tens instal·lada la base de dades PostGres.
+
+## Crear base de dades AdventureWorks:
 ```
 su postgres
 psql
@@ -16,14 +18,15 @@ Mirem quina ip té la màquina virtual.
 ```
 ip a
 ```
-[Image1](https://github.com/fbarraga/Postgres-DB/blob/main/UF2/Databases/adventureworks/image1.png)
+
+![Image1](https://github.com/fbarraga/Postgres-DB/blob/main/UF2/Databases/adventureworks/image1.png?raw=true)
 has d’agafar la ip que apareix a la variable inet de l’adaptador enp0s3.
 
 En l’exemple seria 192.168.18.102
 Configurar WinSCP:
-[Image2](https://github.com/fbarraga/Postgres-DB/blob/main/UF2/Databases/adventureworks/image2.png)
+![Image2](https://github.com/fbarraga/Postgres-DB/blob/main/UF2/Databases/adventureworks/image2.png?raw=true)
 Posaràs la ip del teu servidor i l’usuari i contrasenya amb el que et connectes.
-[Image3](https://github.com/fbarraga/Postgres-DB/blob/main/UF2/Databases/adventureworks/image3.png)
+![Image3](https://github.com/fbarraga/Postgres-DB/blob/main/UF2/Databases/adventureworks/image3.png?raw=true)
 Mous el fitxer a la teva carpeta home:
  
 Accedeixes al servidor de nou a la teva carpeta home.
