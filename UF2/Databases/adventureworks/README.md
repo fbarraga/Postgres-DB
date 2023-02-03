@@ -5,6 +5,9 @@
  Arranca la màquina Linux on tens instal·lada la base de dades PostGres.
 
 ## Crear base de dades AdventureWorks:
+
+* Connectem amb l'usuari postgres i executem: 
+* 
 ```
 su postgres
 psql
@@ -14,9 +17,9 @@ psql
 exit
 ```
 
-Mirem quina ip té la màquina virtual.
+* Mirem quina ip té la nostra màquina virtual.
 ```
-ip a
+ip -c a
 ```
 
 ![Image1](https://github.com/fbarraga/Postgres-DB/blob/main/UF2/Databases/adventureworks/image1.png?raw=true)
