@@ -35,7 +35,7 @@ En l’exemple seria **192.168.56.101**
 
 * Posa la ip del teu servidor de Postgres i l’usuari i contrasenya amb el que et connectes.
 
-<img src="https://github.com/fbarraga/Postgres-DB/blob/main/UF2/Databases/adventureworks/images/image3.png?raw=true" width="200" />
+<img src="https://github.com/fbarraga/Postgres-DB/blob/main/UF2/Databases/adventureworks/images/image3.png?raw=true" width="600" />
 
 
 Mou el fitxer `AdventureWorksBackup` que tens a Github a la carpeta /tmp del servidor PostGres:
