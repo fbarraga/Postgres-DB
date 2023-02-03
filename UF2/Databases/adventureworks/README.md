@@ -1,10 +1,10 @@
 # Instal·lació de la base de dades AdventureWorks
 
-## Obrir màquina virtual.
+## Obrir màquina amb PostGres
 
- Arranca la màquina Linux on tens instal·lada la base de dades PostGres.
+ Arranca la màquina Linux/Windows on tens instal·lada la base de dades PostGres.
 
-## Crear base de dades AdventureWorks:
+## Crear base de dades AdventureWorks
 
 * Connectem amb l'usuari postgres i executem: 
   
@@ -27,7 +27,7 @@ has d’agafar la ip que apareix a la variable inet de l’adaptador enp0s3.
 
 En l’exemple seria **192.168.56.101**
 
-## Configurar WinSCP:
+## Configurar WinSCP
 
 * Descarrega el programa de https://www.winscp.net
 
