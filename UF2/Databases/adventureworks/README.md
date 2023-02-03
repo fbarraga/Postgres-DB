@@ -7,7 +7,7 @@
 ## Crear base de dades AdventureWorks:
 
 * Connectem amb l'usuari postgres i executem: 
-* 
+  
 ```
 su postgres
 psql
