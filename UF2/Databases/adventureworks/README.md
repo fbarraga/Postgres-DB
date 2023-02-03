@@ -16,18 +16,22 @@ Mirem quina ip té la màquina virtual.
 ```
 ip a
 ```
-
+[Image1](https://github.com/fbarraga/Postgres-DB/blob/main/UF2/Databases/adventureworks/image1.png)
 has d’agafar la ip que apareix a la variable inet de l’adaptador enp0s3.
 
 En l’exemple seria 192.168.18.102
 Configurar WinSCP:
- 
+[Image2](https://github.com/fbarraga/Postgres-DB/blob/main/UF2/Databases/adventureworks/image2.png)
 Posaràs la ip del teu servidor i l’usuari i contrasenya amb el que et connectes.
+[Image3](https://github.com/fbarraga/Postgres-DB/blob/main/UF2/Databases/adventureworks/image3.png)
 Mous el fitxer a la teva carpeta home:
  
 Accedeixes al servidor de nou a la teva carpeta home.
 Tornes a executar psql, per carregar el fitxer.
+```
 su postgres
 psql -d AdventureWorks -f AdventureWorksBackup
+```
+
 Quan acabi ja hauries de tenir la base de dades creada i amb dades. Pot ser que en el procés aparegui algun error, de moment no afecta, no facis cas.
 
