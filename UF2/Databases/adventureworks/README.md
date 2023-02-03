@@ -25,7 +25,7 @@ ip -c a
 ![Image1](https://github.com/fbarraga/Postgres-DB/blob/main/UF2/Databases/adventureworks/image1.png?raw=true)
 has d’agafar la ip que apareix a la variable inet de l’adaptador enp0s3.
 
-En l’exemple seria **192.168.18.102**
+En l’exemple seria **192.168.56.101**
 
 ## Configurar WinSCP:
 
