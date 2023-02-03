@@ -11,7 +11,7 @@
 ```
 su postgres
 psql
-#> CREATE DATABASE AdventureWorks;
+#> CREATE DATABASE adventureworks;
 #>\l 
 #>\q
 exit
@@ -44,7 +44,7 @@ Mou el fitxer `AdventureWorksBackup` que tens a Github a la carpeta /tmp del ser
 * Accedeix al servidor de noui executa la instrucció següent per restaurar el backup.
 ```
 su postgres
-psql -d AdventureWorks -f /tmp/AdventureWorksBackup
+psql -d adventureworks -f /tmp/AdventureWorksBackup
 ```
 
 Quan acabi ja hauries de tenir la base de dades creada i amb dades.
