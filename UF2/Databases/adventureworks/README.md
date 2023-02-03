@@ -34,11 +34,10 @@ En l’exemple seria **192.168.56.101**
 ![Image2](https://github.com/fbarraga/Postgres-DB/blob/main/UF2/Databases/adventureworks/images/image2.png?raw=true)
 
 * Posa la ip del teu servidor de Postgres i l’usuari i contrasenya amb el que et connectes.
-
+* Mou el fitxer `AdventureWorksBackup` que tens al repositori de  Github a la carpeta /tmp del servidor PostGres:
+  
 <img src="https://github.com/fbarraga/Postgres-DB/blob/main/UF2/Databases/adventureworks/images/image3.png?raw=true" width="70%" />
 
-
-Mou el fitxer `AdventureWorksBackup` que tens a Github a la carpeta /tmp del servidor PostGres:
 
 ## Restaura el backup  
 
