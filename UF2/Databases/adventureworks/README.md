@@ -37,7 +37,7 @@ En l’exemple seria **192.168.56.101**
   
 ![Image3](https://github.com/fbarraga/Postgres-DB/blob/main/UF2/Databases/adventureworks/image3.png?raw=true)
 
-Mou el fitxer `AdventureWorksBackup` a la teva carpeta /tmp:
+Mou el fitxer `AdventureWorksBackup` que tens a Github a la carpeta /tmp del servidor PostGres:
 
 ## Restaura el backup  
 
