@@ -41,7 +41,7 @@ Mou el fitxer `AdventureWorksBackup` que tens a Github a la carpeta /tmp del ser
 
 ## Restaura el backup  
 
-* Accedeix al servidor de noui executa la instrucció següent per restaurar el backup.
+* Accedeix al servidor de nou i executa la instrucció següent per restaurar el backup.
 ```
 su postgres
 psql -d adventureworks -f /tmp/AdventureWorksBackup
