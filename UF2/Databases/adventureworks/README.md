@@ -23,7 +23,10 @@ ip a
 has d’agafar la ip que apareix a la variable inet de l’adaptador enp0s3.
 
 En l’exemple seria 192.168.18.102
-Configurar WinSCP:
+
+# Configurar WinSCP:
+
+ Descarrega
 ![Image2](https://github.com/fbarraga/Postgres-DB/blob/main/UF2/Databases/adventureworks/image2.png?raw=true)
 Posaràs la ip del teu servidor i l’usuari i contrasenya amb el que et connectes.
 ![Image3](https://github.com/fbarraga/Postgres-DB/blob/main/UF2/Databases/adventureworks/image3.png?raw=true)
