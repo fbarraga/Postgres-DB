@@ -50,8 +50,8 @@ psql -d adventureworks -f /tmp/AdventureWorksBackup
 
 Quan acabi ja hauries de tenir la base de dades creada i amb dades.
 
-## Schema de la base de dades
+## Esquema de la base de dades
 
-Pots veure el schema de la base de dades a la següent imatge:
+Pots veure l'esquema de la base de dades a la següent imatge:
 
 ![Image4](https://github.com/fbarraga/Postgres-DB/blob/main/UF2/Databases/adventureworks/images/AdventureWorks_schema.png?raw=true)
