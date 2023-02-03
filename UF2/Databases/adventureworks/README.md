@@ -1,4 +1,4 @@
-# INSTAL·LACIÓ BASE DE DADES ADVENTURE WORKS
+# Instal·lació de la base de dades AdventureWorks
 
 ## Obrir màquina virtual.
 
