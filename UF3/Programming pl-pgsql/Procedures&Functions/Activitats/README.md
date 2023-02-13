@@ -17,8 +17,18 @@ Fes un procediment emmagatzemat que rebi com a paràmetres un número de departa
 ### Exercici 5. (BD: HR)
 Fes un procediment que tregui per pantalla el nom dels departaments i la quantitat de persones que treballen amb aquest departament.
 
-### Exercici 6.
+### Exercici 6. (BD: HR)
 Fes un procediment que modifiqui la taula d'empleats afegint el camp department_name i l'empleni consultant el nom del departament a la taula departaments. Tens el camp department_id per fer el lligam de les taules.
+
+### Exercici 7. (BD: Pagila)
+Fes un procediment que mostri els 10 clients que han llogat més pel·lícules. El informe haurà de ser com:
+
+```
+==========================================
+Customer                        | nºRental
+==========================================
+Client: xxxxxxxxxx, xxxxxxxx        233
+```
 
 ## Apartat 2. Funcions.
 
