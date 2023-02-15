@@ -5,13 +5,12 @@
 -- Database: testdb;
 -- Disconnect existing Northwind if you have created.  
 
-DROP DATABASE IF EXISTS Northwind; 
+DROP DATABASE IF EXISTS pagila; 
 
 
 
-CREATE DATABASE Northwind 
+CREATE DATABASE pagila 
   WITH 
-    owner = hho
     encoding = 'UTF8'
     tablespace = pg_default 
     lc_collate = 'en_AU.UTF-8' 
