@@ -1,3 +1,2 @@
 DROP DATABASE IF EXISTS tienda;
 CREATE DATABASE tienda;
-USE tienda;
