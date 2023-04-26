@@ -12,6 +12,9 @@ This is a set of database schemas, pgsql samples, activities used for training i
 
 https://github.com/dhamaniasad/awesome-postgres
 
+## Exercices
+https://pgexercises.com/questions/basic/selectall.html
+
 Issues
 ------
 For any bug reports or feature requests please
