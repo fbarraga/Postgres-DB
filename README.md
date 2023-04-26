@@ -8,6 +8,9 @@ Cicles Formatius de Grau Superior Disseny Aplicacions Multimèdia (DAM) M02-Base
 
 This is a set of database schemas, pgsql samples, activities used for training in PostgresSQL
 
+## Repositorys Postgres
+
+https://github.com/dhamaniasad/awesome-postgres
 
 Issues
 ------
