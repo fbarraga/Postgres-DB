@@ -1,19 +1,24 @@
 # Postgres-DB
  
-## Scope
+## Introducció
 
-Cicles Formatius de Grau Superior Disseny Aplicacions Multimèdia (DAM) M02-Bases de Dades
+Aquest repositori de Github preten recollir informació util per impartir Cicles Formatius de Grau Superior Disseny Aplicacions Multimèdia (DAM) M02-Bases de Dades. Aquesta assignatura està plantejada per explicar als alumne
 
-## Content
+## Contingut
 
 This is a set of database schemas, pgsql samples, activities used for training in PostgresSQL
 
-## Repositorys Postgres
+## Repositoris varis de Postgres
 
 https://github.com/dhamaniasad/awesome-postgres
 
-## Exercices
+## Exercicis per practicar
 https://pgexercises.com/questions/basic/selectall.html
+
+
+# Jocs Online
+
+https://lost-at-sql.therobinlord.com/
 
 Issues
 ------
