@@ -1,4 +1,4 @@
-# Instal.lar PostgreSQL en Ubuntu 
+# Instal·lar PostgreSQL amb Ubuntu 22.04 o superior
 
 ## Instal·lar PostgreSQL 
 Amb aquesta comanda es descarregarà i s'instal·larà en la seva darrera versió disponible per ubuntu. 
