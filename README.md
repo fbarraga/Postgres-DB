@@ -19,8 +19,8 @@ Està estructurat seguint les quatre UFs del mòdul de BD.
 
 Existeixen multitud de sites amb informació sobre Postgres. A continuació llisto els que he trobat més interessants:
 
-  Recursos Generals
-  * https://github.com/dhamaniasad/awesome-postgres
+  Recursos Generals (Fork de dhamaniasad)
+  * https://github.com/fbarraga/awesome-postgres
 
   Activitats
   * https://pgexercises.com/questions/basic/selectall.html
