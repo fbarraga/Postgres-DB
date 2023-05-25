@@ -6,8 +6,9 @@ Aquest repositori de Github preten recollir informació útil per impartir el m�
 
 ## Contingut
 
-Aquest repositori conté esquemes de base de dades, exemples de pgsql, i activitats per desenvolupar amb Postgres. 
-Està testejat fins la versió 15. Està estructurat en les quatre UFs del mòdul de BD.
+Aquest repositori conté esquemes de base de dades, exemples de pgsql, i activitats per desenvolupar amb Postgres (testejat fins la versió 15). 
+
+Està estructurat seguint les quatre UFs del mòdul de BD.
 
 * UF1 - Introducció a les Bases de Dades
 * UF2 - Llenguatge SQL-DML i DDL
