@@ -28,7 +28,7 @@
 
 Crea la base de dades botiga-informatica descarregant els scripts des de Github.
 
- https://github.com/fbarraga/Postgres-DB/UF2/Databases/botiga_informatica
+ https://github.com/fbarraga/Postgres-DB/UF2/0_Databases/botiga_informatica
 
 ## 1.3 Consultes sobre una taula
 
