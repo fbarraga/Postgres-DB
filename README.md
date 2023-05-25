@@ -44,7 +44,7 @@ Databases Schemas:
 1. Database scott  -> Rafał Pocztarski - [https://github.com/rsp](https://github.com/rsp)
 2. Database pagila -> Robert Treat - [https://github.com/xzilla/pagila]
 3. Database universidad,tienda,gestion,jardineria -> josejuansanchez [https://github.com/josejuansanchez]
-4. Database Northwind: basat en Microsoft sample databases adapted to Postgres https://github.com/Microsoft/sql-server-samples
+4. Database Northwind: basat en "Microsoft sample databases for sql-server" Adaptada a Postgres https://github.com/Microsoft/sql-server-samples
 5. Database regex: basat en https://hevodata.com/learn/postgresql-regex/
 
 PGSQL
