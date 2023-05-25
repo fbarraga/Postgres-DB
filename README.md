@@ -2,33 +2,35 @@
  
 ## Introducció
 
-Aquest repositori de Github preten recollir informació util per impartir Cicles Formatius de Grau Superior Disseny Aplicacions Multimèdia (DAM) M02-Bases de Dades. Aquesta assignatura està plantejada per explicar als alumne
+Aquest repositori de Github preten recollir informació útil per impartir el mòdul de Base de Dades dintre dels Cicles Formatius de Grau Superior DAM.
 
 ## Contingut
 
-This is a set of database schemas, pgsql samples, activities used for training in PostgresSQL
+Aquest repositori conté esquemes de base de dades, exemples de pgsql, i activitats per desenvolupar amb Postgres. S'ha utilitzat la versió 15. Està estructurat en les quatre UFs del mòdul de BD.
+UF1 - Introducció a les Bases de Dades
+UF2 - Llenguatge SQL-DML i DDL
+UF3 - Llenguatge SQL, DCL i extensió procedimental
+UF4 - Base de dades Objecte Relacionals
 
-## Repositoris varis de Postgres
+## Links interessants
 
-https://github.com/dhamaniasad/awesome-postgres
+Existeixen multitud de sites amb informació sobre Postgres. A continuació llisto els que he trobat més interessants:
 
-## Exercicis per practicar
-https://pgexercises.com/questions/basic/selectall.html
+  Recursos Generals
+  * https://github.com/dhamaniasad/awesome-postgres
+
+  Activitats
+  * https://pgexercises.com/questions/basic/selectall.html
+
+  Jocs Online
+  * https://lost-at-sql.therobinlord.com/
 
 
-# Jocs Online
+## Autors
 
-https://lost-at-sql.therobinlord.com/
+Aquest repositori es una recopilació d'informació pròpia i extreta d'altres repositoris.
 
-Issues
-------
-For any bug reports or feature requests please
-[post an issue on GitHub]
-
-Author
-------
-
-Databases:
+Databases Schemas:
 
 1. Database scott  -> Rafał Pocztarski - [https://github.com/rsp](https://github.com/rsp)
 2. Database pagila -> Robert Treat - [https://github.com/xzilla/pagila]
@@ -37,8 +39,5 @@ Databases:
 5. Database regex: based on https://hevodata.com/learn/postgresql-regex/
 
 PGSQL
-Pgsql samples extracted from Postgres Administration Site.
 
-License
--------
-See each database folder to see the license.
+1. Pgsql samples extracted from Postgres Administration Site.
