@@ -26,6 +26,7 @@ Existeixen multitud de sites amb informació sobre Postgres. A continuació llis
   * https://pgexercises.com/questions/basic/selectall.html
   * https://sqlpad.io/about/
   * https://www.hackerrank.com/domains/sql
+  * https://leetcode.com/study-plan/sql/
 
   Jocs Online
   * https://lost-at-sql.therobinlord.com/
