@@ -22,7 +22,7 @@ exit
 ip -c a
 ```
 
-![Image1](https://github.com/fbarraga/Postgres-DB/blob/main/UF2/Databases/adventureworks/images/image1.png?raw=true)
+![Image1](https://github.com/fbarraga/Postgres-DB/blob/main/UF2/0_Databases/adventureworks/images/image1.png?raw=true)
 has d’agafar la ip que apareix a la variable inet de l’adaptador amb el que connectes a la màquina. En aquest cas `enp0s3`.
 
 En l’exemple seria **192.168.56.101**
