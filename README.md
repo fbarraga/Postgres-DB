@@ -21,12 +21,14 @@ Existeixen multitud de sites amb informació sobre Postgres. A continuació llis
 
   Recursos Generals (Fork de dhamaniasad)
   * https://github.com/fbarraga/awesome-postgres
+  * https://sqlzoo.net/wiki/SQL_Tutorial
 
   Activitats
   * https://pgexercises.com/questions/basic/selectall.html
   * https://sqlpad.io/about/
   * https://www.hackerrank.com/domains/sql
   * https://leetcode.com/study-plan/sql/
+  * https://en.wikibooks.org/wiki/SQL_Exercises
 
   Jocs Online
   * https://lost-at-sql.therobinlord.com/
