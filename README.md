@@ -42,10 +42,10 @@ Aquest repositori es una recopilació d'informació pròpia i extreta d'altres r
 Databases Schemas:
 
 1. Database scott  -> Rafał Pocztarski - [https://github.com/rsp](https://github.com/rsp)
-2. Database pagila -> Robert Treat - [https://github.com/xzilla/pagila]
-3. Database universidad,tienda,gestion,jardineria -> josejuansanchez [https://github.com/josejuansanchez]
-4. Database Northwind: basat en "Microsoft sample databases for sql-server" Adaptada a Postgres https://github.com/Microsoft/sql-server-samples
-5. Database regex: basat en https://hevodata.com/learn/postgresql-regex/
+2. Database pagila -> Robert Treat - [https://github.com/xzilla/pagila](https://github.com/xzilla/pagila)
+3. Database universidad,tienda,gestion,jardineria -> josejuansanchez [https://github.com/josejuansanchez](https://github.com/josejuansanchez)
+4. Database Northwind: basat en "Microsoft sample databases for sql-server" Adaptada a Postgres [https://github.com/Microsoft/sql-server-samples](https://github.com/Microsoft/sql-server-samples)
+5. Database regex: basat en [https://hevodata.com/learn/postgresql-regex/](https://hevodata.com/learn/postgresql-regex/)
 
 PGSQL
 
