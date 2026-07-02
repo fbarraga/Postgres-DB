@@ -2,6 +2,12 @@
 
 ## Introducció
 
+---
+
+IMPORTANT: AQUEST REPOSITORI JA NO S'ACTUALITZA. PER TENIR ACCES ALS CONTINGUTS MÉS ACTUALITZATS VISITAR [https://www.asixsapa.cat/m372](https://www.asixsapa.cat/m372)
+
+---
+
 Aquest repositori de Github preten recollir informació útil per impartir el mòdul de Base de Dades dintre dels Cicles Formatius de Grau Superior DAM.
 
 ## Contingut
