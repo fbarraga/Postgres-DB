@@ -1,5 +1,17 @@
 # Postgres-DB
 
+<p align="center">
+  <img src="asix.png" alt="ASIX/DAW/DAM" width="200">
+</p>
+
+## Índex
+
+- [Introducció](#introducció)
+- [Contingut](#contingut)
+- [Links interessants](#links-interessants)
+- [Autors](#autors)
+- [Llicència](#llicència)
+
 ## Introducció
 
 ---
@@ -25,27 +37,26 @@ Està estructurat seguint les quatre UFs del mòdul de BD.
 
 Existeixen multitud de sites amb informació sobre Postgres. A continuació llisto els que he trobat més interessants:
 
-  Recursos Generals (Fork de dhamaniasad)
-  * https://github.com/fbarraga/awesome-postgres
-  
-  Activitats
-  * https://pgexercises.com/questions/basic/selectall.html
-  * https://sqlpad.io/about/
-  * https://www.hackerrank.com/domains/sql
-  * https://leetcode.com/study-plan/sql/
-  * https://en.wikibooks.org/wiki/SQL_Exercises
-  * https://sqlzoo.net/wiki/SQL_Tutorial
+**Recursos Generals** (Fork de dhamaniasad)
+* [awesome-postgres](https://github.com/fbarraga/awesome-postgres)
 
-  Jocs Online
-  * https://lost-at-sql.therobinlord.com/
-  * https://mystery.knightlab.com/
+**Activitats**
+* [PGExercises](https://pgexercises.com/questions/basic/selectall.html)
+* [SQLPad](https://sqlpad.io/about/)
+* [HackerRank - SQL](https://www.hackerrank.com/domains/sql)
+* [LeetCode - SQL](https://leetcode.com/study-plan/sql/)
+* [Wikibooks - SQL Exercises](https://en.wikibooks.org/wiki/SQL_Exercises)
+* [SQLZoo](https://sqlzoo.net/wiki/SQL_Tutorial)
 
+**Jocs Online**
+* [Lost at SQL](https://lost-at-sql.therobinlord.com/)
+* [SQL Murder Mystery](https://mystery.knightlab.com/)
 
 ## Autors
 
 Aquest repositori es una recopilació d'informació pròpia i extreta d'altres repositoris.
 
-Databases Schemas:
+**Esquemes de Bases de Dades:**
 
 1. Database scott  -> Rafał Pocztarski - [https://github.com/rsp](https://github.com/rsp)
 2. Database pagila -> Robert Treat - [https://github.com/xzilla/pagila](https://github.com/xzilla/pagila)
@@ -53,6 +64,10 @@ Databases Schemas:
 4. Database Northwind: basat en "Microsoft sample databases for sql-server" Adaptada a Postgres [https://github.com/Microsoft/sql-server-samples](https://github.com/Microsoft/sql-server-samples)
 5. Database regex: basat en [https://hevodata.com/learn/postgresql-regex/](https://hevodata.com/learn/postgresql-regex/)
 
-PGSQL
+**PGSQL:**
 
 1. Pgsql samples extracted from Postgres Administration Site.
+
+## Llicència
+
+Aquest repositori es distribueix sota la llicència [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](LICENSE). Alguns esquemes i materials provenen de tercers i mantenen la seva llicència i atribució originals, tal com s'indica a la secció [Autors](#autors).
