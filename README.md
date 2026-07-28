@@ -1,9 +1,5 @@
 # Postgres-DB
 
-<p align="center">
-  <img src="asix.png" alt="ASIX/DAW/DAM" width="200">
-</p>
-
 ## Índex
 
 - [Introducció](#introducció)
