@@ -2,5 +2,25 @@
 
 ## Contingut
 
-* [TEORIA](TEORIA) - Material teòric de la unitat.
-* [ACTIVITATS](ACTIVITATS) - Exercicis i pràctiques de la unitat.
+### TEORIA
+
+* [DAM_M02_UF2_NF1_DOC01A_Introducció als SGBD Relacionals_v2022.pdf](TEORIA/DAM_M02_UF2_NF1_DOC01A_Introducci%C3%B3%20als%20SGBD%20Relacionals_v2022.pdf)
+* [DAM_M02_UF2_NF1_DOC01B_Introduccio al Postgresql_V2022.pdf](TEORIA/DAM_M02_UF2_NF1_DOC01B_Introduccio%20al%20Postgresql_V2022.pdf)
+* [DAM_M02_UF2_NF1_DOC01C_Instal.lació Postgresql_V2022.pdf](TEORIA/DAM_M02_UF2_NF1_DOC01C_Instal.laci%C3%B3%20Postgresql_V2022.pdf)
+* [DAM_M02_UF2_NF1_DOC02_Sentencies_SQL_SELECT_Basiques_v2022.pdf](TEORIA/DAM_M02_UF2_NF1_DOC02_Sentencies_SQL_SELECT_Basiques_v2022.pdf)
+* [DAM_M02_UF2_NF1_DOC03_Restriccio_i_ordenació de dades_v2022.pdf](TEORIA/DAM_M02_UF2_NF1_DOC03_Restriccio_i_ordenaci%C3%B3%20de%20dades_v2022.pdf)
+* [DAM_M02_UF2_NF1_DOC04_Funcions_una_sola_fila_v2022.pdf](TEORIA/DAM_M02_UF2_NF1_DOC04_Funcions_una_sola_fila_v2022.pdf)
+* [DAM_M02_UF2_NF1_DOC05_Visualitzar_dades_de_varies_taules_v2022.pdf](TEORIA/DAM_M02_UF2_NF1_DOC05_Visualitzar_dades_de_varies_taules_v2022.pdf)
+* [DAM_M02_UF2_NF1_DOC06_Agregat_de_dades_amb_funciones_grup_v2022.pdf](TEORIA/DAM_M02_UF2_NF1_DOC06_Agregat_de_dades_amb_funciones_grup_v2022.pdf)
+* [DAM_M02_UF2_NF1_DOC07_Subconsultes_v2022.pdf](TEORIA/DAM_M02_UF2_NF1_DOC07_Subconsultes_v2022.pdf)
+* [DAM_M02_UF2_NF1_DOC08_Manipulacio_de_dades_v2022.pdf](TEORIA/DAM_M02_UF2_NF1_DOC08_Manipulacio_de_dades_v2022.pdf)
+* [DAM_M02_UF2_NF2_DOC00_Creacio_i_gestio_de_taules_v2022.pdf](TEORIA/DAM_M02_UF2_NF2_DOC00_Creacio_i_gestio_de_taules_v2022.pdf)
+* [DAM_M02_UF2_NF2_DOC01_Restricciones_v2022.pdf](TEORIA/DAM_M02_UF2_NF2_DOC01_Restricciones_v2022.pdf)
+
+### ACTIVITATS
+
+* [DAM_M02_UF2_NF1_Pràctica_A01_Iniciació_Llenguatge_SQL_v2022.docx](ACTIVITATS/DAM_M02_UF2_NF1_Pr%C3%A0ctica_A01_Iniciaci%C3%B3_Llenguatge_SQL_v2022.docx)
+* [DAM_M02_UF2_NF1_Pràctica_A02_DML_I_Ordenacio_v2022.docx](ACTIVITATS/DAM_M02_UF2_NF1_Pr%C3%A0ctica_A02_DML_I_Ordenacio_v2022.docx)
+* [DAM_M02_UF2_NF1_Pràctica_A03_Funcions_Unica_fila_v2022.docx](ACTIVITATS/DAM_M02_UF2_NF1_Pr%C3%A0ctica_A03_Funcions_Unica_fila_v2022.docx)
+* [DAM_M02_UF2_NF1_Pràctica_A04_Consulta_amb_diverses_taules_v2022.docx](ACTIVITATS/DAM_M02_UF2_NF1_Pr%C3%A0ctica_A04_Consulta_amb_diverses_taules_v2022.docx)
+* [DAM_M02_UF2_NF1_Pràctica_A05_Consulta Agregats_i_subquery_v2022.docx](ACTIVITATS/DAM_M02_UF2_NF1_Pr%C3%A0ctica_A05_Consulta%20Agregats_i_subquery_v2022.docx)

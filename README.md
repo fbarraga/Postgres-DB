@@ -24,10 +24,10 @@ Aquest repositori conté esquemes de base de dades, exemples de pgsql, i activit
 
 Està estructurat seguint les quatre UFs del mòdul de BD.
 
-* UF1 - Introducció a les Bases de Dades
-* UF2 - Llenguatge SQL-DML i DDL
-* UF3 - Llenguatge SQL, DCL i extensió procedimental
-* UF4 - Base de dades Objecte Relacionals
+* [UF1](UF1) - Introducció a les Bases de Dades
+* [UF2](UF2) - Llenguatge SQL-DML i DDL
+* [UF3](UF3) - Llenguatge SQL, DCL i extensió procedimental
+* [UF4](UF4) - Base de dades Objecte Relacionals
 
 ## Links interessants
 
