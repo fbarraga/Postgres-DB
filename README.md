@@ -8,7 +8,7 @@ IMPORTANT: AQUEST REPOSITORI JA NO S'ACTUALITZA. PER TENIR ACCES ALS CONTINGUTS 
 
 ---
 
-Aquest repositori de Github preten recollir informació útil per impartir el mòdul de Base de Dades dintre dels Cicles Formatius de Grau Superior DAM.
+Aquest repositori de Github preten recollir informació útil per impartir el mòdul de Base de Dades dintre dels Cicles Formatius de Grau Superior ASIX/DAW/DAM.
 
 ## Contingut
 
